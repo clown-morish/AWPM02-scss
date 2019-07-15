@@ -1,0 +1,26 @@
+{
+  "browserSyncOptions": {
+    "server": "./",
+    "notify": true
+  },
+  "browserSyncWatchFiles": [
+    "./assets/img/*",
+    "./assets/css/*.min.css",
+    "./assets/js/*.min.js",
+    "./**/*.php",
+    "./**/*.html"
+  ],
+  "paths": {
+    "js": "./assets/js",
+    "css": "./assets/css",
+    "img": "./assets/img",
+    "imgsrc": "./assets/src/img",
+    "sass": "./assets/scss",
+    "node": "./node_modules/",
+    "bower": "./bower_components/",
+    "dev": "./assets/src",
+    "dist": "./dist",
+    "distprod": "./dist-product",
+    "vendor": "./assets/vendor"
+  }
+}
